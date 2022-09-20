@@ -1,0 +1,78 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+#container{min-height: 80vh;}
+
+
+/***************************FORMULARIO************************/
+
+#fb{
+    display: flex;
+    justify-content: center;
+}
+
+.margentxtform {
+    margin-left: 540px!important;
+}
+.btn-block {
+    width: 500px;
+}
+
+/*************************** FOOTER**********************************/
+
+
+#cont-foot{
+    display: flex;
+    align-items: flex-end;
+}
+
+#barra-pie{
+	width:100%;
+	background: #1d4358;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+.navp a {
+    text-decoration: none;
+    color: white;
+    margin-left: 300px;
+    padding: 8px;
+}
+
+#contenedor {
+width:80%;
+display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navp a:hover { 
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 7px; /*puse 1px menos que nav:a para que no tuviese movimiento*/
+    border: 1px solid;
+    border-color: white;
+    border-radius: 7px;
+
+}
+
+.navp a:active { /*despues del click*/
+    color: orangered;
+}
+
+.margen-pie {
+
+    display: flex;
+    align-items: flex-end;
+}
